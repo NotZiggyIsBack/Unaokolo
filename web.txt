@@ -1,0 +1,11 @@
+root@unaokolo:~# sudo cat .litespeed_password
+admin_pass=c4RzMHrjmrQ2C8SI
+root@unaokolo:~# ^C
+
+SMTP Key: xsmtpsib-8dd1c3460ece43effe232b40c8694ae868eed21e8a4a3e3f04cdcf7e44e8d5cd-Q0LF8AfzckGqCVsn
+
+relayhost = smtp-relay.brevo.com:587
+smtp_sasl_auth_enable = yes
+smtp_sasl_password_maps = static:vucic420@gmail.com:xsmtpsib-8dd1c3460ece43effe232b40c8694ae868eed21e8a4a3e3f04cdcf7e44e8d5cd-Q0LF8AfzckGqCVsn
+smtp_sasl_security_options = noanonymous
+mail pass: Nerad3d@

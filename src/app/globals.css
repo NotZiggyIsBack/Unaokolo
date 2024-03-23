@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.blur1 {
+  background: rgba(255, 255, 255, 0.20);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#lokacijaPage {
+  background-image: url("https://magazin.bihamk.ba/assets/photos/article/big/1645793019-putuj-bosnom-i-hercegovinom-japodski-otoci.jpg?v1645798159");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#lokacijaPageBlur {
+  -webkit-backdrop-filter: blur(60px);
+    backdrop-filter: blur(60px);
+}
